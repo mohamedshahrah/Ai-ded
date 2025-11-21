@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['taaaches']
+
+roboflow:
+  workspace: project-7ad8v
+  project: detection-des-tachess
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project-7ad8v/detection-des-tachess/dataset/1
