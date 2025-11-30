@@ -8,8 +8,8 @@ import time
 
 # --- Configuration ---
 # 🚨 IMPORTANT: Replace with the actual path to your trained model!
-MODEL_PATH = r"C:\Users\bensh\Desktop\sohibe\mewYOLOv8_Stitch_Defects\v9_direct_args_final1\weights\best.pt" 
-CAMERA_INDEX = 1 
+MODEL_PATH = r"C:\Users\bensh\Desktop\projects\sohibe\YOLOv8_Custom_Project1\yolov8n_feature_run_v3_100epochs\weights\best.pt" 
+CAMERA_INDEX = 0 
 CONFIDENCE_THRESHOLD = 0.8
 # Set a low delay (in ms) to poll for new frames (e.g., 1000/30 FPS)
 UPDATE_DELAY_MS = 33 
